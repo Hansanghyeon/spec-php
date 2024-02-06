@@ -1,5 +1,13 @@
 [Specification pattern - Wikipedia](https://en.wikipedia.org/wiki/Specification_pattern#TypeScript) 
 
+## How to use
+
+```sh
+composer require hansanghyeon/spec
+```
+
+## Example
+
 ```php
 <?php
 
