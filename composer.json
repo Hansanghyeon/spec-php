@@ -10,7 +10,8 @@
     },
     "authors": [
         {
-            "name": "Hansanghyeon"
+            "name": "Hansanghyeon",
+            "email": "999@hyeon.pro"
         }
     ],
     "require": {}
