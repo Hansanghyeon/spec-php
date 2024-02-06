@@ -1,0 +1,17 @@
+{
+    "name": "hansanghyeon/spec",
+    "description": "Specification pattern",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hansanghyeon\\Spec\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hansanghyeon"
+        }
+    ],
+    "require": {}
+}
