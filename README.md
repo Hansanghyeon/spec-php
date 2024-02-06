@@ -11,7 +11,15 @@ composer require hansanghyeon/spec
 ```php
 <?php
 
-require_once 'Product.php'; // Product 클래스 파일을 로드합니다.
+class Product {
+    public $isNew;
+    public $qty;
+
+    public function __construct($isNew, $qty) {
+        $this->isNew = $isNew;
+        $this->qty = $qty;
+    }
+}
 
 // 새롭게 추가된 상품인지 확인하는 스펙
 $isNewSpec = new Spec(function($candidate) {
