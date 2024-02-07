@@ -8,11 +8,22 @@
             "Hansanghyeon\\Spec\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Hansanghyeon\\Spec\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Hansanghyeon",
             "email": "999@hyeon.pro"
         }
     ],
-    "require": {}
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    }
 }
